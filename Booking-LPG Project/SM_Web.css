@@ -1,0 +1,86 @@
+.logo {
+    display: flex;
+    align-items: center;
+    background: lightgreen;
+    padding: 10px 20px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 200px;
+    margin: 10px;
+    padding: 10px;
+    font-family: "Product sans", sans-serif;
+    font-size: 20px;
+}
+
+.search-bar input {
+    margin: 10px;
+    padding: 10px;
+    width: 900px;
+    height: 20px;
+}
+
+.seatch-bar button {
+    padding: 10px;
+}
+
+.priority {
+    background: lightgreen;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.priority h1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+}
+
+.priority ul {
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    scroll-snap-type: x mandatory;
+    list-style: none;
+}
+
+.priority img {
+    width: 300px;
+    height: 175px;    
+    margin-left: 5px;
+    margin-right: 5px;
+    list-style: none;
+}
+
+.priority p {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.footer {
+    background: lightgreen;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer h1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+}
+
+.footer p {
+    margin: 10px 20px;
+    font-size: 18px;
+    text-align: justify;
+    padding-bottom: 10px;
+}
