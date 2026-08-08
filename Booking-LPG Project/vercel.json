@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/Booking-LPG Project/$1"
+    }
+  ]
+}
