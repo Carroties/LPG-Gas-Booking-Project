@@ -1,0 +1,8 @@
+// Import and inject Vercel Web Analytics
+import { inject } from '@vercel/analytics';
+
+// Initialize analytics tracking
+inject({
+  mode: 'auto',
+  debug: false
+});
