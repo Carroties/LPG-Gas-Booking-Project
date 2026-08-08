@@ -1,0 +1,66 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    background: lightgreen;
+    padding: min(15px, 8%);
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    font-family: "Product sans", sans-serif;
+    font-size: 22px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: min(15px, 8%);
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.priority {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: lightgreen;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: auto;
+}
+
+.priority img {
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    padding: min(15px, 8%)
+}
+
+.fitur {
+    background: lightgreen;
+    padding: min(15px, 8%)
+}
+
+.footer {
+    background: lightgreen;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer h1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: min(15px, 8%)
+
+}
+
+.footer p {
+    font-size: 18px;
+    text-align: justify;
+    padding: min(15px, 8%)
+}
