@@ -15,16 +15,12 @@
     align-items: center;
     gap: 25px;
     font-family: "Product sans", sans-serif;
-    font-size: 22px;
-    height: 40px;
-    font-size: 18px;
-    font-weight: 600;
     padding: min(15px, 8%);
     border-radius: 8px;
     text-decoration: none;
 }
 
-.priority {
+.hero-section {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -32,35 +28,34 @@
     margin-top: 10px;
     margin-bottom: 10px;
     max-width: auto;
+    gap: 65px;
 }
 
-.priority img {
+.text-hero-section {
+   padding-left: min(80px, 8%);
+   font-size: 20px;
+}
+
+.image-hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: auto;
     aspect-ratio: 16 / 9;
     object-fit: cover;
-    padding: min(15px, 8%)
+    padding-top: min(15px, 8%);
+    padding-right: min(80px, 8%);
+    padding-bottom: min(15px, 8%);
 }
 
-.fitur {
+.feature-section {
     background: lightgreen;
     padding: min(15px, 8%)
 }
 
-.footer {
+.footer-section {
     background: lightgreen;
     margin-top: 10px;
     margin-bottom: 10px;
-}
-
-.footer h1 {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding: min(15px, 8%)
-
-}
-
-.footer p {
-    font-size: 18px;
-    text-align: justify;
     padding: min(15px, 8%)
 }
