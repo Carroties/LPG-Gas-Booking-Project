@@ -28,7 +28,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changes
 - Changes the Hero Section and fill it with two photos of Sabrang Mart
 
-## [0.0.0.2] - 2026-08-02
+## [0.0.0.1] - 2026-08-02
 ### Added
 - Created initial repository structure.
 - Changes the navigation bar to dedicated only for login and signup button in index.html
