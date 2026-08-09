@@ -1,4 +1,4 @@
-# Changelog - Pre-Alpha
+# Changelog - Pre-Release
 
 All notable changes to this project will be documented in this file.
 
@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added "Mulai" button that redirects to login.html if user is not in an account
 - All buttons can now redirect to certain html pages. Each html pages will be more interactive soon.
 - Creates CHANGELOG.md file and inserts it in repository for change history
+- Added README.md for repository's overview
 
 ### Changes
 - Replaced the two photos of Sabrang Mart with a two column of a brief introduction of Sabrang Mart and a photo of Sabrang Mart
